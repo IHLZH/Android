@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="文件" android:id="@+id/menu_file">
+        <menu>
+            <item android:title="打开" android:id="@+id/menu_open"></item>
+            <item android:title="保存" android:id="@+id/menu_save"></item>
+        </menu>
+    </item>
+
+    <item android:title="操作" android:id="@+id/menu_action">
+        <menu>
+            <item android:title="复制" android:id="@+id/menu_copy"></item>
+            <item android:title="粘贴" android:id="@+id/menu_paste"></item>
+        </menu>
+    </item>
+
+</menu>

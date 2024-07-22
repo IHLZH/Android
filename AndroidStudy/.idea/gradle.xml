@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../gradle-7.2/gradle-7.2" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitytest" />
+            <option value="$PROJECT_DIR$/adapterview" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/draw" />
+            <option value="$PROJECT_DIR$/glide" />
+            <option value="$PROJECT_DIR$/homework_activity_jump" />
+            <option value="$PROJECT_DIR$/layout" />
+            <option value="$PROJECT_DIR$/login" />
+            <option value="$PROJECT_DIR$/okhttp" />
+            <option value="$PROJECT_DIR$/practice" />
+            <option value="$PROJECT_DIR$/resource" />
+            <option value="$PROJECT_DIR$/sqlite" />
+            <option value="$PROJECT_DIR$/thread" />
+            <option value="$PROJECT_DIR$/trail_running" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

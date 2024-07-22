@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/btn_notify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发布通知"
+        android:textSize="30sp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_notify"
+        android:text="上下文菜单"
+        android:textSize="30sp"
+        >
+
+    </Button>
+    <Button
+        android:id="@+id/btn_ejectmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_menu"
+        android:text="弹出式菜单"
+        android:textSize="30sp"
+        >
+
+    </Button>
+
+</RelativeLayout>

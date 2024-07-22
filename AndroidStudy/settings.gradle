@@ -1,0 +1,30 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "learn"
+include ':app'
+include ':layout'
+include ':adapterview'
+include ':practice'
+include ':thread'
+include ':activitytest'
+include ':resource'
+include ':glide'
+include ':draw'
+include ':login'
+include ':okhttp'
+include ':homework_activity_jump'
+include ':trail_running'
+include ':sqlite'

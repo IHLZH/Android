@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        tools:src = "@drawable/pic1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/tv_introduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="小米 10 双模5G 骁龙865 1亿像素8K电影相机"
+            tools:textSize="20dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tv_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="100条评价 100%好评"
+            tools:textSize="15dp"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="￥2333.00"
+            tools:textColor="@color/red"
+            android:textColor="@color/red"
+            tools:textSize="40dp"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+</LinearLayout>

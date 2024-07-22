@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_context_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上下文菜单"/>
+    <Button
+        android:id="@+id/btn_pop_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="弹出菜单"/>
+
+</LinearLayout>
