@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/item_rv_tv_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        tools:text="walnut"/>
+
+    <TextView
+        android:id="@+id/item_rv_tv_trans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_rv_tv_word"
+        android:layout_alignBaseline="@+id/item_rv_tv_word"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        tools:text="核桃"/>
+
+    <Button
+        android:id="@+id/item_rv_btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="编辑"/>
+    <Button
+        android:id="@+id/item_rv_btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/item_rv_btn_edit"
+        android:text="删除"/>
+
+
+
+
+
+</RelativeLayout>
