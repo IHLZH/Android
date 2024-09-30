@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_add_btn">新增用户</string>
+    <string name="user_name_tv">姓名：</string>
+    <string name="user_sex_tv">性别：</string>
+    <string name="user_birthday_tv">生日：</string>
+    <string name="user_age_tv">年龄：</string>
+    <string name="user_height_tv">身高：</string>
+    <string name="user_weight_tv">体重：</string>
+</resources>
